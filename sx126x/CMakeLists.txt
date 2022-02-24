@@ -24,3 +24,5 @@ add_library(sx126x STATIC
 
 
 target_include_directories(sx126x PUBLIC inc)
+
+add_library(sx126x::sx126x ALIAS sx126x)
